@@ -1,0 +1,16 @@
+LOG ZMIAN
+0.0.1 Dodano lokalną kopię plików [11.02.2017]
+ -Katalog Arduino zawiera kody pod arduino
+  - Katalog ir zawiera kod który pozwala na użycie pilota ir (tylko do użycia z sd.py)
+  - Katalog lcd zawiera kod który pozwala na użycie wyświetlacza pod tytuł piosenki
+ -Katalog Lua zawiera wtyczkę pod VLC
+  - vlc_com.lua do użycia razem z katalogiem lcd
+ -Katalog Python zawiera program sterujący przy użyciu DBUS oraz informacji z com
+  - sd.py Program który steruje dbus
+  
+0.0.2 Użycie CI GitLab (Python compiler,Platformio) [12.02.2017]
+ 0.0.2A Dodanie konfiguracji Gitlaba
+ 0.0.2B Dodanie konfiguracji Platformio
+ 0.0.2C Ulepszono konfigurację Gitlaba
+ 
+0.0.3 Aktualizacja pliku lcd.ino (Dodanie więcej miejsca na tytuł piosenki) [06.03.2017]
