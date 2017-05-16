@@ -5,6 +5,7 @@ python:
   
 before_install:
  - sudo echo "deb http://ppa.launchpad.net/fkrull/deadsnakes/ubuntu precise main" | sudo tee -a /etc/apt/sources.list
+ - sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys DB82666C
  - sudo apt-get update -qq
  - sudo apt-get install -qq python-dbus python3.4 python-pip
 
