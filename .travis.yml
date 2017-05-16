@@ -1,12 +1,12 @@
 language: python
 
 python:
-  - '3.4'
   - '2.7'
   
 before_install:
+ - sudo echo "deb http://ppa.launchpad.net/fkrull/deadsnakes/ubuntu precise main" | sudo tee -a /etc/apt/sources.list
  - sudo apt-get update -qq
- - sudo apt-get install -qq python-dbus python-pip
+ - sudo apt-get install -qq python-dbus python3.4 python-pip
 
 install:
  - pip install pyserial
